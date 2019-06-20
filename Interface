@@ -73,8 +73,8 @@ contract Oryx is ERC20Interface, Owned, SafeMath {
         name = "Oryx";
         decimals = 0;
         _totalSupply = 100000000;
-        balances[0x929CaD492bAd74b384Ea640eed53B3c8446090Fc] = _totalSupply; //MEW address here
-        Transfer(address(0), 0x929CaD492bAd74b384Ea640eed53B3c8446090Fc, _totalSupply);//MEW address here
+        balances[0x439d5924500Aa4E2F0cD5A0d84fdd9c8Cb983418] = _totalSupply; //MEW address here
+        Transfer(address(0), 0x439d5924500Aa4E2F0cD5A0d84fdd9c8Cb983418, _totalSupply);//MEW address here
     }
 
 
